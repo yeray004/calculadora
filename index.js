@@ -109,3 +109,12 @@ function resolver(){
     resetear();
     resultado.textContent = res;
 }
+
+/*      MODO NOCHE      */
+const bnoche = document.querySelector('.bnoche');
+const body = document.querySelector('body');
+const calculadora = document.querySelector('.calculadora')
+bnoche.addEventListener('click', e =>{
+    body.classList.toggle('modonoche');
+    calculadora.classList.toggle('modonoche')
+});
