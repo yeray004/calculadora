@@ -2,6 +2,7 @@
     font-family: 'Poor Story', cursive;
 }
 body{
+    background: #042225;
     box-sizing: border-box;
     padding: 0% 1%;
 }
@@ -12,10 +13,10 @@ body{
     height: 98vh;
     border-radius: 25px;
     border-radius: 14px;
-    background: linear-gradient(90deg, rgb(0, 72, 68), rgb(4, 82, 89));
+    background: linear-gradient(90deg, rgb(8, 180, 169), rgb(13, 179, 194));
     box-shadow:  5px 5px 9px #0a5359,-5px -5px 9px #0e7983;
 }
-.calculadora td button{
+.calculadora button{
     display:block;
     width:97%;
     height: 97%;
@@ -26,9 +27,7 @@ body{
     box-shadow:  5px 5px 9px #0b919c;
 }
 
-.calculadora td button:hover{
-    transition: all .5s linear;
-    background: linear-gradient(145deg, #a8a8a8, #efefef);
+.calculadora button:hover{
     cursor: pointer;
 }
 #creditos{
@@ -49,12 +48,23 @@ body{
     margin: 30px 0px;
     height: 100%;
     line-height: 100px;
-    border-radius: 14px;
+    border-radius: 8px;
     border: #f0f0f0 solid 2px;
     background: linear-gradient(145deg, #c4c4c4, #ffffff);
     box-shadow:  5px 5px 9px #0b919c;
     font-family: Poor Story, Helvetica, sans-serif;
     overflow-y: scroll;
+}
+#resultado::-webkit-scrollbar{
+    width: 9px;
+}
+#resultado::-webkit-scrollbar-track{
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
+}
+#resultado::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color:rgba(55, 177, 169, 0.8);
 }
 button{
     border-radius: 4px;
@@ -70,10 +80,6 @@ button{
     text-align: center;
 }
 /*      MODO NOCHE      */
-body.modonoche{
-    background: #042225;
-    color: #fff;
-}
 .calculadora.modonoche{
     margin:0 auto;
     padding:3% 5% 0% 5%;
@@ -81,6 +87,110 @@ body.modonoche{
     height: 98vh;
     border-radius: 25px;
     border-radius: 14px;
-    background: linear-gradient(90deg, rgb(8, 180, 169), rgb(13, 179, 194));
-    box-shadow:  5px 5px 9px #0a5359,-5px -5px 9px #0e7983;
+    background: linear-gradient(90deg, rgb(0, 72, 68), rgb(4, 82, 89));
+    box-shadow:  5px 5px 9px #127882,-5px -5px 9px #095259;
+}
+.bnoche.modonoche{
+    color:#0b919c;
+}
+#siete.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#ocho.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#nueve.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#division.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#cuatro.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#cinco.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#seis.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#multiplicacion.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#uno.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#dos.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#tres.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#resta.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#igual.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#reset.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#cero.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}#suma.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
+}
+#resultado.modonoche{
+    border: #131313;
+    box-shadow:  5px 5px 9px #0b919c;
+    color: white;
+    background: linear-gradient(145deg, #131313, #4b4b4b);
 }

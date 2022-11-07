@@ -111,10 +111,36 @@ function resolver(){
 }
 
 /*      MODO NOCHE      */
-const bnoche = document.querySelector('.bnoche');
-const body = document.querySelector('body');
-const calculadora = document.querySelector('.calculadora')
-bnoche.addEventListener('click', e =>{
-    body.classList.toggle('modonoche');
-    calculadora.classList.toggle('modonoche')
+/* const bnoche = document.querySelector('.bnoche')
+const calculadora = document.querySelector('.calculadora');
+const button = document.querySelector ('button');
+const td = document.querySelector ('td');
+const ocho = document.querySelector ('.ocho');
+bnoche.addEventListener('click', () =>{
+    calculadora.classList.toggle('modonoche');
+    button.classList.toggle('modonoche');
+    td.classList.toggle('modonoche');
+    ocho.classList.toggle('modonoche');
 });
+ */
+document.querySelector('.bnoche').addEventListener('click', function(){
+    document.querySelector('.calculadora').classList.toggle('modonoche');
+    document.querySelector('.bnoche').classList.toggle('modonoche');
+    document.querySelector('#siete').classList.toggle('modonoche');
+    document.querySelector('#ocho').classList.toggle('modonoche');
+    document.querySelector('#nueve').classList.toggle('modonoche');
+    document.querySelector('#division').classList.toggle('modonoche');
+    document.querySelector('#cuatro').classList.toggle('modonoche');
+    document.querySelector('#cinco').classList.toggle('modonoche');
+    document.querySelector('#seis').classList.toggle('modonoche');
+    document.querySelector('#multiplicacion').classList.toggle('modonoche');
+    document.querySelector('#uno').classList.toggle('modonoche');
+    document.querySelector('#dos').classList.toggle('modonoche');
+    document.querySelector('#tres').classList.toggle('modonoche');
+    document.querySelector('#resta').classList.toggle('modonoche');
+    document.querySelector('#igual').classList.toggle('modonoche');
+    document.querySelector('#reset').classList.toggle('modonoche');
+    document.querySelector('#cero').classList.toggle('modonoche');
+    document.querySelector('#suma').classList.toggle('modonoche');
+    document.querySelector('#resultado').classList.toggle('modonoche');
+})
