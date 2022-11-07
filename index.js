@@ -137,7 +137,7 @@ function resolver(){
 /*      MODO NOCHE      */
 
 /* Primer intendo de desarrollo en el modo noche, reemplazado por la segunda forma que encontramos
-en las líneas 154-174 */
+en las líneas 162-183 */
 
 /* const bnoche = document.querySelector('.bnoche')
 const calculadora = document.querySelector('.calculadora');
