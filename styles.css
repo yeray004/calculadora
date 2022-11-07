@@ -1,11 +1,14 @@
+/* Tipografía */
 *{
     font-family: 'Poor Story', cursive;
 }
+/* Propiedades del body */
 body{
     background: #042225;
     box-sizing: border-box;
     padding: 0% 1%;
 }
+/* Propiedades y adaptabilidad de la calculadora */
 .calculadora{
     margin:0 auto;
     padding:3% 5% 0% 5%;
@@ -26,7 +29,6 @@ body{
     background: linear-gradient(145deg, #c4c4c4, #ffffff);
     box-shadow:  5px 5px 9px #0b919c;
 }
-
 .calculadora button:hover{
     cursor: pointer;
 }
@@ -55,6 +57,7 @@ body{
     font-family: Poor Story, Helvetica, sans-serif;
     overflow-y: scroll;
 }
+/*Estilos del scroll bar en la pantalla de resultados*/
 #resultado::-webkit-scrollbar{
     width: 9px;
 }
@@ -66,11 +69,13 @@ body{
     border-radius: 5px;
     background-color:rgba(55, 177, 169, 0.8);
 }
+/* Estilos específicos de los botones */
 button{
     border-radius: 4px;
     border: solid 2px #f0f0f0;
     background-color: #fff;
 }
+/* Estilos botón modo día y noche */
 .bnoche{
     display: flex;
     font-size: 50px;
@@ -80,6 +85,7 @@ button{
     text-align: center;
 }
 /*      MODO NOCHE      */
+/* Estilos del modo noche */
 .calculadora.modonoche{
     margin:0 auto;
     padding:3% 5% 0% 5%;
@@ -93,6 +99,8 @@ button{
 .bnoche.modonoche{
     color:#0b919c;
 }
+/* Estilos específicos por botón
+La explicación de esta prática se encuentra comentada en el documeno index.js */
 #siete.modonoche{
     border: #131313;
     box-shadow:  5px 5px 9px #0b919c;
